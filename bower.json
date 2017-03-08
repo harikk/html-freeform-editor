@@ -1,0 +1,28 @@
+{
+    "name": "html-freeform-editor",
+    "version": "1.0.0",
+    "directory": "www/bower_components",
+    "main": ["js/editor.js", "css/editor.css"],
+    "license": "MIT",
+    "ignore": [
+        ".jshintrc",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "3.1.1",
+        "jquery-ui": "*"
+    },
+    "overrides": {
+        "jquery-ui": {
+            "main": [
+                "jquery-ui.js",
+                "themes/base/jquery-ui.css"
+            ]
+        }
+    },
+    "devDependencies": {
+    }
+}

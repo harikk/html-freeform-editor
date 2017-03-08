@@ -1,0 +1,42 @@
+.editor-container {
+    position: relative;
+    background-color: #CACACA;
+    min-height: 400px;
+    min-width: 500px; 
+}
+
+.canvasObj {
+    position: absolute; 
+} 
+
+.dragging{    
+    outline-color: red;
+    outline-style: dotted ;
+    outline-width: 1px;
+}
+
+.ui-resizable-handle{
+    background-color: red;
+}
+
+.ui-resizable-border{ 
+    outline-color: red;
+    outline-style: dotted ;
+    outline-width: 1px; 
+}
+
+.ui-resizable-se{ 
+    right: -5px;
+    bottom: -5px;
+    width: 9px;
+    height: 9px;
+}
+[contenteditable]{
+    outline: none;
+}
+.ui-rotatable-handle{
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    margin-left: -10px;
+}

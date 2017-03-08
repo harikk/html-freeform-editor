@@ -1,0 +1,13 @@
+.toolbar{
+    width: 200px;
+    height: 400px;
+    background-color: pink;
+    display: inline;
+    float: left;
+}
+.editor-container{
+    float: left
+}
+.clearfix{
+    clear:both
+}
